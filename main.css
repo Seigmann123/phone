@@ -1,171 +1,498 @@
-.iphone_white {
-    position: relative;
-    background: rgb(235, 234, 234);
-    border-radius: 40px;
-    width: 400px;
-    height: 708px;
-    margin: 0 auto;
-}
-
-.sensor {
-    width: 5px;
-    height: 5px;
-    background: #0e0d0d;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    top: 20px;
-    border-radius: 50%;
-}
-
-.speaker {
-    width: 55px;
-    height: 4px;
-    background: #000000;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    top: 36px;
-    border-radius: 4px;
-}
-
-.camera {
-    width: 8px;
-    height: 8px;
-    background: #000000;
-    position: absolute;
-    right: 85;
-    left: 0;
-    margin: 0 auto;
-    top: 33.5px;
-    border-radius: 50%;
-}
-
-.screen {
-    width: 350px;
-    height: 570px;
-    background: #dcdcdc;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    top: 65px;
-}
-
-.screen-off {
-    width: 350px;
-    height: 570px;
-    background: #000000;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    top: 65px;
-}
-
-.background {
-    width: 350px;
-    height: 570px;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    top: 65px;
-}
-
-.off-button {
-    width: 3px;
-    height: 50px;
-    background: rgb(224, 222, 222);
-    position: absolute;
-    right: 0;
-    margin: 0 auto;
-    top: 110;
-    border-radius: 4px;
-    left: 402;
-}
-
-.icon {
-    position: relative;
-    width: 65;
-    left: 40;
-    top: 75;
-    bottom: 15;
-    height: 65;
-    border-radius: 25%;
-    margin: 0 5 0 5;
-}
-
-.bottom-bar-icons {
-    position: relative;
-    width: 65;
-    left: 5;
-    top: 443;
-    height: 65;
-    border-radius: 25%;
-    margin: 0 5 0 5;
-}
-
-.bottom-bar {
-    position: absolute;
-    bottom: 163;
-    margin: 30px;
-    background-color: rgb(31, 30, 30);
-    bottom: 60;
-    opacity: 0.9;
-    width: 280;
-    height: 75;
-    border-radius: 20px;
-    left: 30;
-}
-
-.snake {
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    top: 65px;
-}
-
-#clock {
-    font-family: 'Orbitron', sans-serif;
-    color: #ffffff;
-    font-size: 56px;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    position: relative;
-    top: 65;
-}
-
-.background-container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.sound-up {
-    width: 3px;
-    height: 40px;
-    background: rgb(224, 222, 222);
-    position: absolute;
-    right: 402;
-    margin: 0 auto;
-    top: 110;
-    border-radius: 4px;
-    left: 0;
-}
-
-.sound-down {
-    width: 3px;
-    height: 40px;
-    background: rgb(224, 222, 222);
-    position: absolute;
-    right: 402;
-    margin: 0 auto;
-    top: 160;
-    border-radius: 4px;
-    left: 0;
-}
+        a {
+            text-decoration: none;
+        }
+        
+        .iphone_white {
+            position: relative;
+            background: rgb(235, 234, 234);
+            border-radius: 40px;
+            width: 400px;
+            height: 708px;
+            margin: 0 auto;
+        }
+        
+        .sensor {
+            width: 5px;
+            height: 5px;
+            background: #0e0d0d;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 20px;
+            border-radius: 50%;
+        }
+        
+        .speaker {
+            width: 55px;
+            height: 4px;
+            background: #000000;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 36px;
+            border-radius: 50%;
+        }
+        
+        .camera {
+            width: 8px;
+            height: 8px;
+            background: #000000;
+            position: absolute;
+            right: 85;
+            left: 0;
+            margin: 0 auto;
+            top: 33.5px;
+            border-radius: 50%;
+        }
+        
+        .screen {
+            width: 350px;
+            height: 570px;
+            background: #dcdcdc;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 65px;
+        }
+        
+        .screen-off {
+            width: 350px;
+            height: 570px;
+            background: #000000;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 65px;
+        }
+        
+        .background {
+            width: 350px;
+            height: 570px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 65px;
+        }
+        
+        .off-button {
+            width: 3px;
+            height: 50px;
+            background: rgb(224, 222, 222);
+            position: absolute;
+            right: 0;
+            margin: 0 auto;
+            top: 110;
+            border-radius: 4px;
+            left: 404;
+        }
+        
+        .icon {
+            position: relative;
+            width: 65;
+            left: 40;
+            top: 75;
+            bottom: 15;
+            height: 65;
+            border-radius: 25%;
+            margin: 0 5 0 5;
+        }
+        
+        .bottom-bar-icons {
+            position: relative;
+            width: 65;
+            left: 5;
+            top: 443;
+            height: 65;
+            border-radius: 25%;
+            margin: 0 5 0 5;
+        }
+        
+        .bottom-bar {
+            position: absolute;
+            bottom: 163;
+            margin: 30px;
+            background-color: rgb(31, 30, 30);
+            bottom: 60;
+            opacity: 0.9;
+            width: 280;
+            height: 75;
+            border-radius: 20px;
+            left: 30;
+        }
+        
+        .snake {
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 65px;
+        }
+        
+        #clock {
+            font-family: 'Orbitron', sans-serif;
+            color: #ffffff;
+            font-size: 56px;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            position: relative;
+            top: 65;
+        }
+        
+        .background-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        .sound-up {
+            width: 3px;
+            height: 40px;
+            background: rgb(224, 222, 222);
+            position: absolute;
+            right: 402;
+            margin: 0 auto;
+            top: 110;
+            border-radius: 4px;
+            left: 0;
+        }
+        
+        .sound-down {
+            width: 3px;
+            height: 40px;
+            background: rgb(224, 222, 222);
+            position: absolute;
+            right: 402;
+            margin: 0 auto;
+            top: 160;
+            border-radius: 4px;
+            left: 0;
+        }
+        
+        #container {
+            width: 350px;
+            height: 570px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 65px;
+        }
+        
+        #videoElement {
+            width: 350px;
+            height: 570px;
+            background-color: #666;
+        }
+        
+        .password-screen {
+            position: relative;
+            height: 570;
+            width: 350;
+            background-color: rgb(29, 27, 27);
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 65px;
+        }
+        
+        .enter-passcode {
+            font-size: 20px;
+            position: absolute;
+            color: white;
+            top: 100;
+            text-align: center;
+            right: 0;
+            left: 0;
+        }
+        
+        .passcode-dots-1 {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: rgb(29, 7, 27);
+            position: absolute;
+            right: 90;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .passcode-dots-1-filled {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: white;
+            position: absolute;
+            right: 90;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .passcode-dots-2 {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: rgb(29, 7, 27);
+            position: absolute;
+            right: 30;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .passcode-dots-2-filled {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: white;
+            position: absolute;
+            right: 30;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .passcode-dots-3 {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: rgb(29, 7, 27);
+            position: absolute;
+            right: 0;
+            left: 30;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .passcode-dots-3-filled {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: white;
+            position: absolute;
+            right: 0;
+            left: 30;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .passcode-dots-4 {
+            width: 0.2cm;
+            height: 0.2cm;
+            background: rgb(29, 7, 27);
+            position: absolute;
+            right: 0;
+            left: 90;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 150;
+            border-radius: 50%;
+            border: solid 2px white;
+        }
+        
+        .password-letter-1 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 180;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 200;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-2 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 200;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-3 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 180;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 200;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-4 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 180;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 280;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-5 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 280;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-6 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 180;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 280;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-7 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 180;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 360;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-8 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 360;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-9 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 180;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 360;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .password-letter-0 {
+            width: 65px;
+            font-size: 45px;
+            line-height: 1.4;
+            height: 65px;
+            background: #494545;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            left: 0;
+            margin: 0 auto;
+            bottom: 0px;
+            top: 440;
+            border-radius: 50%;
+            color: #dcdcdc;
+        }
+        
+        .cancel {
+            font-size: 15px;
+            position: absolute;
+            color: white;
+            top: 530;
+            text-align: center;
+            right: 45;
+        }
+        
+        .emergency {
+            font-size: 15px;
+            position: absolute;
+            color: white;
+            top: 530;
+            text-align: center;
+            left: 40;
+        }
